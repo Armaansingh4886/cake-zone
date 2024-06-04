@@ -1,0 +1,79 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/***user table***/
+.userTable{
+    @apply bg-white
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+
+.userTable td{
+    @apply border text-base text-center
+}
+
+/**scrollbar hidden****/
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+.order-container{
+    position: relative;
+
+}
+.order-change{
+    position: fixed;
+    background-color: rgba(90, 89, 89, 0.596);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+
+}
+.bg-order{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+background-color: rgb(83, 83, 83);
+padding: 30px;
+border-radius: 10px;
+color: white;
+font-size: x-large;
+}
+.remove{
+    display: none;
+}
+.updatebutton{
+    display: flex;
+
+
+}
+.updatebutton button{
+    border: 1px solid black;
+    background-color: rgb(218, 144, 33);
+    padding: 0 5px ;
+    color: white;
+    border-radius: 10px;
+}
+.bg-order input{
+padding: 10px;
+width: 400px;
+background-color: rgb(202, 202, 202);
+border-radius: 20px;
+margin: 10px;
+}
+
+.bg-order button{
+    background-color: rgb(218, 144, 33);
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
